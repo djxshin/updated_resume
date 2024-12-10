@@ -96,12 +96,12 @@ ul {
     margin-left: 20px;
 }
 
-li {
+li #ACN{
     margin: 5px 0;
     font-size: 13px;
     cursor: pointer;
     color: #007BFF;
-    text-decoration: underline;
+   
 }
 
 li:hover {
