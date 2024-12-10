@@ -33,6 +33,11 @@ header {
     height: 100px;
     border-radius: 50%;
     border: 2px solid #ddd;
+    transition: transform 0.3s ease;
+}
+
+.headshot:hover {
+    transform: scale(1.5); /* Enlarge the image by 1.5 times */
 }
 
 header h1 {
