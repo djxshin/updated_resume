@@ -93,6 +93,13 @@ li:hover {
     text-decoration: none;
 }
 
+.details {
+    display: none;
+    font-size: 12px;
+    margin-left: 20px;
+    color: #555;
+}
+
 footer {
     text-align: center;
     font-size: 12px;
