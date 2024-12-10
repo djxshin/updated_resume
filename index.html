@@ -3,57 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DJ Shin Online Resume</title>
+    <title>DJ Shin Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="resume-container">
         <header>
-            <img src="headshot.jpg" alt="DJ Shin Headshot" class="headshot">
-            <h1>DJ Shin</h1>
-            <h2>Tech Strategy & Advisory | Full-Stack Developer</h2>
-            <p>Los Angeles, CA | 678-467-9857 | <a href="mailto:dj.shin770@gmail.com">dj.shin770@gmail.com</a></p>
+            <h1>DJ SHIN</h1>
+            <h2>TECH STRATEGY & ADVISORY | FULL-STACK DEVELOPER</h2>
         </header>
-        <main>
-            <section>
-                <h3>Relevant Experience</h3>
-                <div id="timeline">
-                    <div class="job">
-                        <h4>Accenture (Sept 2019 - Dec 2024)</h4>
-                        <p>Technology Strategy & Advisory Consultant</p>
-                        <ul>
-                            <li onclick="toggleDetails(this)">PayJoy - Loan Management System Integration</li>
-                            <li onclick="toggleDetails(this)">Sony North America - Telecommunications</li>
-                            <li onclick="toggleDetails(this)">Lam Research - Semiconductor</li>
-                        </ul>
-                    </div>
-                    <div class="job">
-                        <h4>Walt Disney Company (May 2023 - Oct 2023)</h4>
-                        <p>Quality Test Engineer</p>
-                        <ul>
-                            <li onclick="toggleDetails(this)">Managed SAP S4 Brownfield Migration</li>
-                            <li onclick="toggleDetails(this)">Developed Testing Strategies</li>
-                        </ul>
-                    </div>
+        <div class="contact">
+            <p>Los Angeles, CA | 678-467-9857 | <a href="mailto:dj.shin770@gmail.com">dj.shin770@gmail.com</a></p>
+        </div>
+        <section class="introduction">
+            <p>
+                Tech Consultant with a MERN stack development background and over 5 years of consulting experience, specializing in business transformation, cloud technologies, and SaaS solutions. 
+                Versatile professional with a BBA in Accounting and extensive experience in business process analysis, web development, automation testing, and data analysis. 
+                Advanced from a level 12 associate to a level 9 consultant at Accenture, combining deep technical expertise with a humanistic approach. 
+                Excel in cross-functional collaboration, strategic planning, and committed to continuous professional growth.
+            </p>
+        </section>
+        <section>
+            <h3>Relevant Experience</h3>
+            <div id="experience">
+                <div class="job">
+                    <h4>Accenture</h4>
+                    <p>Technology Strategy & Advisory Consultant | Atlanta/Los Angeles</p>
+                    <p>Sept 2019 - Dec 2024</p>
+                    <ul>
+                        <li onclick="toggleDetails(this)">PayJoy - Loan Management System Integration</li>
+                        <li onclick="toggleDetails(this)">Sony North America - Telecommunications</li>
+                        <li onclick="toggleDetails(this)">Lam Research - Semiconductor</li>
+                    </ul>
                 </div>
-            </section>
-            <section>
-                <h3>Skills</h3>
-                <p>API Testing, Automation Testing, Data Visualization, MERN Stack, AWS Integration, and more.</p>
-            </section>
-            <section>
-                <h3>Education</h3>
-                <p>Georgia State University (BBA in Accounting), General Assembly (Software Engineering)</p>
-            </section>
-            <section>
-                <h3>Certifications</h3>
-                <p>AWS Cloud Practitioner</p>
-            </section>
-        </main>
-        <footer>
-            <p>© 2024 DJ Shin | All Rights Reserved</p>
-        </footer>
+                <div class="job">
+                    <h4>Walt Disney Company</h4>
+                    <p>Quality Test Engineer</p>
+                    <p>May 2023 - Oct 2023</p>
+                    <ul>
+                        <li onclick="toggleDetails(this)">Managed SAP S4 Brownfield Migration</li>
+                        <li onclick="toggleDetails(this)">Developed Testing Strategies</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h3>Skills</h3>
+            <p>API Testing, Automation Testing, Data Visualization, MERN Stack, AWS Integration, and more.</p>
+        </section>
+        <section>
+            <h3>Education</h3>
+            <p>Georgia State University (BBA in Accounting), General Assembly (Software Engineering)</p>
+        </section>
+        <section>
+            <h3>Certifications</h3>
+            <p>AWS Cloud Practitioner</p>
+        </section>
     </div>
+    <footer>
+        <p>© 2024 DJ Shin | All Rights Reserved</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
