@@ -4,4 +4,3 @@ function toggleDetails(element) {
         details.style.display = details.style.display === 'none' || details.style.display === '' ? 'block' : 'none';
     }
 }
-
