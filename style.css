@@ -96,13 +96,15 @@ ul {
     margin-left: 20px;
 }
 
-li #ACN{
+li {
     margin: 5px 0;
     font-size: 13px;
     cursor: pointer;
     color: #007BFF;
    
 }
+
+
 
 li:hover {
     text-decoration: none;
@@ -121,3 +123,8 @@ footer {
     color: #777;
     margin-top: 20px;
 }
+
+#after{
+    cursor: none;
+    color: #050505;
+};
