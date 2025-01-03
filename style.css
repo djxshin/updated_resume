@@ -133,3 +133,32 @@ footer {
     cursor: none;
     color: #050505;
 };
+
+.key-skills {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.key-skills h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.skills-container {
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.skills-container p {
+    margin: 5px 0;
+}
+
+.skills-container strong {
+    font-weight: bold;
+    color: #000;
+}
