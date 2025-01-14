@@ -162,10 +162,15 @@ footer {
     font-weight: bold;
     color: #000;
 }
-.dates {
-    text-align: right;
-    /* margin-left: auto;
+
+.para {
     display: flex;
-    justify-content: space-between;
-    align-items: center; */
+    justify-content: space-between; /* Ensures the text and dates are at opposite ends */
+    align-items: center; /* Aligns the text and dates vertically */
+    margin: 0; /* Optional: Adjust to control spacing */
+}
+
+.dates {
+    margin-left: auto; /* Pushes the dates to the far right */
+    font-weight: bold; /* Matches the visual style in the image */
 }
