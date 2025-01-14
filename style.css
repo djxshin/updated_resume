@@ -162,3 +162,10 @@ footer {
     font-weight: bold;
     color: #000;
 }
+.dates {
+    text-align: right;
+    /* margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
